@@ -12,6 +12,7 @@
 
 @interface JLMasterViewController : UITableViewController
 
+@property (strong, nonatomic) IBOutlet UITableViewCell *cell;
 @property (strong, nonatomic) JLDetailViewController *detailViewController;
 
 @end

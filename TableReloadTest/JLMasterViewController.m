@@ -17,7 +17,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
+        self.navigationController.hidesBottomBarWhenPushed = YES;        
         self.title = NSLocalizedString(@"Master", @"Master");
     }
     return self;
